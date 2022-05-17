@@ -1,0 +1,10 @@
+mx/edu/itl/c18131250/u3imcapp/BuildConfig.java
+ mx.edu.itl.c18131250.u3imcapp.BuildConfig
+mx/edu/itl/c18131250/u3imcapp/SplashActivity.java
+ mx.edu.itl.c18131250.u3imcapp.SplashActivity
+ mx.edu.itl.c18131250.u3imcapp.SplashActivity$1
+mx/edu/itl/c18131250/u3imcapp/MainActivity.java
+ mx.edu.itl.c18131250.u3imcapp.MainActivity
+ mx.edu.itl.c18131250.u3imcapp.MainActivity$1
+mx/edu/itl/c18131250/u3imcapp/AcercaDeActivity.java
+ mx.edu.itl.c18131250.u3imcapp.AcercaDeActivity

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">U3IMCApp</string>
+    <string name="institucion">National Technological of Mexico</string>
+    <string name="campus">Campus La Laguna</string>
+    <string name="carrera">Computer Systems Engineering</string>
+    <string name="materia">Android Development</string>
+    <string name="semestre">Semester: Jan-Jun/2022</string>
+    <string name="grupo">Group: A 10-11Hrs</string>
+    <string name="leyenda_alumno">Student</string>
+    <string name="alumno_nombre">Valentin Herrera Castorena (18131250)</string>
+    <string name="derechos_reservados">(C) Copyright. Torreón, Coah. Mexico</string>
+    <string name="imc_titulo">BODY MASS INDEX</string>
+    <string name="peso">"Weigth (Kg): "</string>
+    <string name="estatura">Height (m):</string>
+    <string name="boton_calcular">Calculate BMI</string>
+    <string name="boton_acerca_de">About...</string>
+    <string name="error_peso">Weight must be greater than zero</string>
+    <string name="error_estatura">Height must be greater than zero</string>
+    <string name="condicion">Your health condition is:</string>
+    <string name="condicion_complemento1">Very severe thinness</string>
+    <string name="condicion_complemento2">Severe thinness</string>
+    <string name="condicion_complemento3">Thinness</string>
+    <string name="condicion_complemento4">Healthy weight</string>
+    <string name="condicion_complemento5">Overweight</string>
+    <string name="condicion_complemento6">Moderate obesity</string>
+    <string name="condicion_complemento7">Severe obesity</string>
+    <string name="condicion_complemento8">Very severe obesity</string>
+    <string name="titulo_builder">BMI</string>
+    <string name="mensaje_builder">"BMI = "</string>
+    <string name="boton_builder">Accept</string>
+    <string name="error_peso_vacio">Enter your weight to calculate your BMI</string>
+    <string name="error_estatura_vacio">Enter your height to calculate your BMI</string>
+</resources>

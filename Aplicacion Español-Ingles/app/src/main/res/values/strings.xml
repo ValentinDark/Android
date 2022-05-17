@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">U3IMCIdiomaApp</string>
+    <string name="institucion">TECNOLOGICO NACIONAL DE MEXICO</string>
+    <string name="campus">CAMPUS LA LAGUNA</string>
+    <string name="carrera">Ingenieria en Sistemas Computacionales</string>
+    <string name="materia">Desarrollo en Android</string>
+    <string name="semestre">Semestre: Ene-Jun/2022</string>
+    <string name="grupo">Grupo: A 10-11Hrs</string>
+    <string name="leyenda_alumno">Alumno:</string>
+    <string name="alumno_nombre">Valentin Herrera Castorena (18131250)</string>
+    <string name="derechos_reservados">(C) Derechos Reservados. Torreón, Coah, México. 2022</string>
+    <string name="imc_titulo">Indice de Masa Corporal</string>
+    <string name="peso">Peso(Kg)</string>
+    <string name="estatura">Estatura(m)</string>
+    <string name="boton_calcular">Calcular IMC</string>
+    <string name="boton_acerca_de">Acerca de...</string>
+
+    <string name="error_peso">El peso debe ser mayor de cero</string>
+    <string name="error_estatura">La estatura debe ser mayor de cero</string>
+    <string name="error_peso_vacio">Ingrese su peso para poder calcular su IMC</string>
+    <string name="error_estatura_vacio">Ingrese su estatura para poder calcular su IMC</string>
+    <string name="condicion">Su condicion de salud es: </string>
+    <string name="condicion_complemento1">Delgadez muy severa</string>
+    <string name="condicion_complemento2">Delgadez severa</string>
+    <string name="condicion_complemento3">Delgadez</string>
+    <string name="condicion_complemento4">Peso saludable</string>
+    <string name="condicion_complemento5">Sobrepeso</string>
+    <string name="condicion_complemento6">Obesidad moderada</string>
+    <string name="condicion_complemento7">Obesidad severa</string>
+    <string name="condicion_complemento8">Obesidad muy severa</string>
+
+    <string name="titulo_builder">IMC</string>
+    <string name="mensaje_builder">IMC = </string>
+    <string name="boton_builder">Aceptar</string>
+</resources>

@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ImageViewActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp">
+
+        <ImageView
+            android:id="@+id/imageViewFuente"
+            android:layout_width="match_parent"
+            android:layout_height="499dp"
+            android:layout_marginTop="10sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btnIncTransparencia"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="fill_vertical"
+                android:layout_weight="1"
+                android:text="Aumentar transparencia" />
+
+            <Button
+                android:id="@+id/btnDecTransparencia"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="fill_vertical"
+                android:layout_weight="1"
+                android:text="Disminuir Transparencia" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btnSigImagen"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="fill_vertical"
+                android:layout_weight="1"
+                android:text="Siguiente" />
+
+            <Button
+                android:id="@+id/btnMatImagen"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="fill_vertical"
+                android:layout_weight="1"
+                android:text="Matriz" />
+
+            <Button
+                android:id="@+id/btnAjustarXY"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="fill_vertical"
+                android:layout_weight="1"
+                android:text="Ajustar XY" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btnAjusteStart"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="fill_vertical"
+                android:layout_weight="1"
+                android:text="START" />
+
+            <Button
+                android:id="@+id/btnAjustarCenter"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="fill_vertical"
+                android:layout_weight="1"
+                android:text="CENTER" />
+
+            <Button
+                android:id="@+id/btnAjustarEnd"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="fill_vertical"
+                android:layout_weight="1"
+                android:text="END" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btnCentroImagen"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="fill_vertical"
+                android:layout_weight="1"
+                android:text="Centrar sin escalar"
+                android:textSize="10sp" />
+
+            <Button
+                android:id="@+id/btnCropImagen"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="fill_vertical"
+                android:layout_weight="1"
+                android:text="Centrar Rellenar"
+                android:textSize="10sp" />
+
+            <Button
+                android:id="@+id/btnCentrarDentroImagen"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="fill_vertical"
+                android:layout_weight="1"
+                android:text="Centrar Dentro"
+                android:textSize="10sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

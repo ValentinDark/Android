@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".CarritoActivity">
+
+    <TextView
+        android:id="@+id/txtPA"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:gravity="bottom"
+        android:text="Tu pedido actual:"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txtPedidoC"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="20dp"
+        android:text="No ha seleccionado nada para su pedido" />
+
+    <TextView
+        android:id="@+id/txtCostoC"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="20dp"
+        android:text="$0" />
+
+    <TextView
+        android:id="@+id/txtSeparador"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:background="#555555"
+        android:paddingLeft="10dp"
+        android:text="Pedidos anteriores:"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold" />
+
+    <ListView
+        android:id="@+id/lstvPedidos"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="vertical" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="bottom">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:visibility="visible">
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

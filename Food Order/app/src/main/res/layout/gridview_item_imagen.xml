@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    android:layout_margin="1dp"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/imgvOpcion"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:contentDescription="Desarrollo en Android"
+        app:srcCompat="@drawable/almuerzo" />
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignBottom="@id/imgvOpcion"
+        android:layout_alignEnd="@id/imgvOpcion"
+        android:layout_alignStart="@id/imgvOpcion"
+        android:layout_alignTop="@id/imgvOpcion"
+        android:layout_margin="1dp"
+        android:background="#55000000"
+        android:gravity="center"
+        android:text=""
+        android:textColor="@android:color/white"
+        android:textSize="14dp"
+        android:textStyle="normal" />
+</LinearLayout>

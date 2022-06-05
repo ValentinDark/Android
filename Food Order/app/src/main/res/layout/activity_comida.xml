@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layComPrincipal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".AlmuerzoActivity">
+
+    <LinearLayout
+        android:id="@+id/layBotones2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnCancelar2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:backgroundTint="@color/gray"
+            android:insetLeft="10dp"
+            android:insetRight="10dp"
+            android:onClick="btnCancelarClick"
+            android:text="Cancelar" />
+
+        <Button
+            android:id="@+id/btnConfirm2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:backgroundTint="@color/gray"
+            android:insetLeft="10dp"
+            android:insetRight="10dp"
+            android:onClick="btnElementosSeleccionadosClick"
+            android:text="Continuar compra"
+            android:textColor="@android:color/background_light" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layLista2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ListView
+            android:id="@+id/lstvComidas"
+            android:layout_width="match_parent"
+            android:layout_height="683dp"
+            android:choiceMode="multipleChoice">
+
+        </ListView>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:icon="@android:drawable/ic_menu_edit"
+        android:title="Personalizar">
+        <menu>
+            <group>
+                <item
+                    android:id="@+id/mniFondoOscuro"
+                    android:title="Tema oscuro" />
+            </group>
+        </menu>
+    </item>
+    <item
+        android:id="@+id/mniAcercaDe"
+        android:icon="@android:drawable/ic_menu_info_details"
+        android:title="Acerca de..." />
+    <item
+        android:id="@+id/mniReturn"
+        android:icon="?attr/actionModeCloseDrawable"
+        android:title="Item"
+        app:showAsAction="ifRoom" />
+</menu>

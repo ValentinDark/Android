@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Food Order</string>
+
+    <string-array name="metodos_de_pago">
+        <item>-Seleccione un metodo-</item>
+        <item>Efectivo</item>
+        <item>Tarjeta de credito</item>
+    </string-array>
+    <string name="title_activity_carrito">CarritoActivity</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+</resources>
